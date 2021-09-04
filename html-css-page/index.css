@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* navigation part css */
+.navigation{
+    background-color: rgb(104, 226, 183);
+    width: 100%;
+    height:50px;
+    display:flex;
+    justify-content:flex-end;
+}
+.container{
+    /* background-color:darkviolet; */
+    width:90%;
+    height:50px;
+    display:flex;
+    justify-content:space-between; 
+}
+.logo{
+    width:15%;
+    height:50px;
+    /* background-color:darkseagreen; */
+    font-family: 'Times New Roman';
+    color: rgb(95, 92, 79);
+    /* text-transform: uppercase; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    width:30%;
+    height:50px;
+    /* background-color: darkseagreen; */
+}
+.links{
+    display:flex;
+}
+.link{
+    list-style-type: none;                  
+    height:50px;
+    width:25%;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Times New Roman';
+    color: rgb(75, 70, 53);
+    cursor: pointer;
+}
+.link:hover{
+    background-color:darkseagreen;
+    color: rgb(63, 41, 55);
+}
+/* navigation part css over banner part css start */
+.banner{
+    width:100%;
+    height:500px;
+    background-color: deeppink;
+    background-image:url("https://wallpapercave.com/wp/wp3987282.jpg");
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+}
+.inside{
+    height:50px;
+    width:100px;
+    /* background-color: floralwhite; */
+    margin-left:300px;
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(80, 14, 235);
+}
+.btn{
+    padding:10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color:darkseagreen;
+    cursor: pointer;
+    border: none;
+    color:rgb(88, 88, 197);
+}
+.btn:hover{
+    background-color: rgb(104, 240, 104);
+    color: rgb(248, 147, 15);
+}
+/* banner part css over    films css*/
+.films{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    /* background-color: rgb(95, 219, 95); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.film-container{
+    width:80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: indigo; */
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+.film-card{
+    width:22%;
+    height:450px;
+    background-color: yellow;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+}
+.film-details{
+    height: 225px;
+    width: 100%;
+    background-color:rgba(0,0,0,0.8);
+    transition: .4s;
+    cursor: pointer;
+}
+.film-details:hover{
+    height:400px;
+}
+.film-title{
+    color:white;
+    font-family: 'Times New Roman';
+    font-size:30px;
+}
+.padd{
+    padding:20px;
+}
+.card-1{
+    background-image: url("https://static.toiimg.com/photo/msid-79192759/79192759.jpg?466020");
+}
+.card-2{
+    background-image: url("https://static.toiimg.com/photo/71832899.cms");
+}
+.card-3{
+    background-image: url("https://live.staticflickr.com/3953/15499602682_762364b7ae_b.jpg");
+}
+.card-4{
+    background-image: url("https://1.bp.blogspot.com/-UtQ7cWQNnl0/YNCLZ5m_dbI/AAAAAAAAB18/bK-5eT99JMs_lDbjFMsuFmTHzye342ZvgCLcBGAsYHQ/s1200/E4Z9tAEVUAICHE9.jpeg");
+}
+/* about us info */
+.info-container{
+    /* background-color: blue; */
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+}
+.move{
+    /* background-color: cornsilk; */
+    width:80%;
+    display:flex;
+    justify-content: center;
+}
